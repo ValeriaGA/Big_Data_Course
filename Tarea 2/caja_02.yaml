@@ -1,0 +1,90 @@
+numero_caja: 2
+compras:
+  - compra:
+      - producto:
+          - nombre: Aguacate
+            cantidad: 3
+            precio_unitario: 900
+      - producto:
+          - nombre: Tomate
+            cantidad: 4
+            precio_unitario: 250
+  - compra:
+      - producto:
+          - nombre: Carne molida
+            cantidad: 1
+            precio_unitario: 6000
+      - producto:
+          - nombre: Yogur
+            cantidad: 6
+            precio_unitario: 500
+  - compra:
+      - producto:
+          - nombre: Leche
+            cantidad: 2
+            precio_unitario: 1200
+      - producto:
+          - nombre: Pan
+            cantidad: 1
+            precio_unitario: 1000
+      - producto:
+          - nombre: Naranjas
+            cantidad: 10
+            precio_unitario: 150
+      - producto:
+          - nombre: Bananos
+            cantidad: 8
+            precio_unitario: 100
+  - compra:
+      - producto:
+          - nombre: Jabón de baño
+            cantidad: 2
+            precio_unitario: 1500
+      - producto:
+          - nombre: Shampoo
+            cantidad: 1
+            precio_unitario: 3200
+  - compra:
+      - producto:
+          - nombre: Galletas
+            cantidad: 3
+            precio_unitario: 950
+      - producto:
+          - nombre: Helado
+            cantidad: 1
+            precio_unitario: 4800
+      - producto:
+          - nombre: Huevos
+            cantidad: 1
+            precio_unitario: 2200
+      - producto:
+          - nombre: Agua embotellada
+            cantidad: 1
+            precio_unitario: 2000
+      - producto:
+          - nombre: Limones
+            cantidad: 5
+            precio_unitario: 120
+  - compra:
+      - producto:
+          - nombre: Cebolla
+            cantidad: 2
+            precio_unitario: 400
+      - producto:
+          - nombre: Ajo
+            cantidad: 1
+            precio_unitario: 300
+  - compra:
+      - producto:
+          - nombre: Pescado
+            cantidad: 1
+            precio_unitario: 7500
+      - producto:
+          - nombre: Papas
+            cantidad: 3
+            precio_unitario: 600
+  - compra:
+      - producto:
+          - nombre: Cerveza
+            cantidad: 6
+            precio_unitario: 1000

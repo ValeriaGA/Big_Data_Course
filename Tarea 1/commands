@@ -1,0 +1,3 @@
+docker build --tag tarea1 .
+docker run -p 8888:8888 -i -t tarea1 /bin/bash
+ctr+D to exit the terminal

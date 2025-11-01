@@ -1,0 +1,73 @@
+numero_caja: 4
+compras:
+  - compra:
+      - producto:
+          - nombre: Pizza congelada
+            cantidad: 2
+            precio_unitario: 4500
+      - producto:
+          - nombre: Papel higiénico
+            cantidad: 1
+            precio_unitario: 3000
+  - compra:
+      - producto:
+          - nombre: Piña
+            cantidad: 1
+            precio_unitario: 1000
+      - producto:
+          - nombre: Sandía
+            cantidad: 1
+            precio_unitario: 2000
+  - compra:
+      - producto:
+          - nombre: Tortillas
+            cantidad: 2
+            precio_unitario: 850
+      - producto:
+          - nombre: Salsa de tomate
+            cantidad: 1
+            precio_unitario: 1100
+      - producto:
+          - nombre: Mostaza
+            cantidad: 1
+            precio_unitario: 900
+  - compra:
+      - producto:
+          - nombre: Atún
+            cantidad: 4
+            precio_unitario: 1300
+      - producto:
+          - nombre: Mayonesa
+            cantidad: 1
+            precio_unitario: 1800
+  - compra:
+      - producto:
+          - nombre: Bistec
+            cantidad: 2
+            precio_unitario: 4000
+      - producto:
+          - nombre: Lechuga
+            cantidad: 1
+            precio_unitario: 600
+      - producto:
+          - nombre: Pepino
+            cantidad: 1
+            precio_unitario: 400
+  - compra:
+      - producto:
+          - nombre: Helado de vainilla
+            cantidad: 1
+            precio_unitario: 4800
+      - producto:
+          - nombre: Jugo de naranja
+            cantidad: 1
+            precio_unitario: 2200
+      - producto:
+          - nombre: Gaseosa
+            cantidad: 2
+            precio_unitario: 1100
+  - compra:
+      - producto:
+          - nombre: Baterías AA
+            cantidad: 1
+            precio_unitario: 2500

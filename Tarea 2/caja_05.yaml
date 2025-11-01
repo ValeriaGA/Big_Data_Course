@@ -1,0 +1,57 @@
+numero_caja: 5
+compras:
+  - compra:
+      - producto:
+          - nombre: Arroz
+            cantidad: 5
+            precio_unitario: 1500
+      - producto:
+          - nombre: Frijoles
+            cantidad: 5
+            precio_unitario: 900
+  - compra:
+      - producto:
+          - nombre: Atún
+            cantidad: 10
+            precio_unitario: 1300
+      - producto:
+          - nombre: Aceite
+            cantidad: 2
+            precio_unitario: 2800
+  - compra:
+      - producto:
+          - nombre: Salchichas
+            cantidad: 3
+            precio_unitario: 2000
+  - compra:
+      - producto:
+          - nombre: Ketchup
+            cantidad: 1
+            precio_unitario: 1500
+      - producto:
+          - nombre: Pan para hot dog
+            cantidad: 2
+            precio_unitario: 1200
+  - compra:
+      - producto:
+          - nombre: Papas fritas grandes
+            cantidad: 3
+            precio_unitario: 1500
+      - producto:
+          - nombre: Gaseosa 3L
+            cantidad: 2
+            precio_unitario: 2500
+  - compra:
+      - producto:
+          - nombre: Bombillos
+            cantidad: 4
+            precio_unitario: 1000
+  - compra:
+      - producto:
+          - nombre: Velas
+            cantidad: 1
+            precio_unitario: 2000
+      - producto:
+          - nombre: Fósforos
+            cantidad: 1
+            precio_unitario: 200

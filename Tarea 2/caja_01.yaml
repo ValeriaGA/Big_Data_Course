@@ -1,0 +1,81 @@
+numero_caja: 1
+compras:
+  - compra:
+      - producto:
+          - nombre: Leche
+            cantidad: 2
+            precio_unitario: 1200
+      - producto:
+          - nombre: Pan
+            cantidad: 1
+            precio_unitario: 1000
+  - compra:
+      - producto:
+          - nombre: Manzanas
+            cantidad: 5
+            precio_unitario: 300
+      - producto:
+          - nombre: Pollo
+            cantidad: 1
+            precio_unitario: 5000
+      - producto:
+          - nombre: Arroz
+            cantidad: 1
+            precio_unitario: 1500
+      - producto:
+          - nombre: Frijoles
+            cantidad: 2
+            precio_unitario: 900
+  - compra:
+      - producto:
+          - nombre: Gaseosa
+            cantidad: 4
+            precio_unitario: 1100
+      - producto:
+          - nombre: Pasta de dientes
+            cantidad: 1
+            precio_unitario: 2500
+  - compra:
+      - producto:
+          - nombre: Huevos
+            cantidad: 1
+            precio_unitario: 2200
+      - producto:
+          - nombre: Jamón
+            cantidad: 1
+            precio_unitario: 3000
+  - compra:
+      - producto:
+          - nombre: Queso
+            cantidad: 1
+            precio_unitario: 4000
+      - producto:
+          - nombre: Cereal
+            cantidad: 1
+            precio_unitario: 3500
+      - producto:
+          - nombre: Leche
+            cantidad: 1
+            precio_unitario: 1200
+  - compra:
+      - producto:
+          - nombre: Papas fritas
+            cantidad: 2
+            precio_unitario: 800
+      - producto:
+          - nombre: Atún
+            cantidad: 3
+            precio_unitario: 1300
+      - producto:
+          - nombre: Mayonesa
+            cantidad: 1
+            precio_unitario: 1800
+  - compra:
+      - producto:
+          - nombre: Café
+            cantidad: 1
+            precio_unitario: 4500
+      - producto:
+          - nombre: Azúcar
+            cantidad: 1
+            precio_unitario: 1300

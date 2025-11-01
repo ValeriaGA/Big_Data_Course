@@ -1,0 +1,83 @@
+numero_caja: 3
+compras:
+  - compra:
+      - producto:
+          - nombre: Vino tinto
+            cantidad: 1
+            precio_unitario: 9000
+      - producto:
+          - nombre: Queso Gouda
+            cantidad: 1
+            precio_unitario: 5500
+  - compra:
+      - producto:
+          - nombre: Aceite de oliva
+            cantidad: 1
+            precio_unitario: 4200
+      - producto:
+          - nombre: Pan integral
+            cantidad: 1
+            precio_unitario: 1800
+  - compra:
+      - producto:
+          - nombre: Arroz
+            cantidad: 2
+            precio_unitario: 1500
+      - producto:
+          - nombre: Frijoles
+            cantidad: 2
+            precio_unitario: 900
+  - compra:
+      - producto:
+          - nombre: Mantequilla
+            cantidad: 1
+            precio_unitario: 2100
+      - producto:
+          - nombre: Mermelada
+            cantidad: 1
+            precio_unitario: 1900
+  - compra:
+      - producto:
+          - nombre: Sal
+            cantidad: 1
+            precio_unitario: 500
+      - producto:
+          - nombre: Pimienta
+            cantidad: 1
+            precio_unitario: 800
+  - compra:
+      - producto:
+          - nombre: Servilletas
+            cantidad: 1
+            precio_unitario: 1300
+      - producto:
+          - nombre: Detergente
+            cantidad: 1
+            precio_unitario: 6500
+      - producto:
+          - nombre: Suavizante
+            cantidad: 1
+            precio_unitario: 5800
+  - compra:
+      - producto:
+          - nombre: Chocolate
+            cantidad: 4
+            precio_unitario: 1200
+      - producto:
+          - nombre: Aceite
+            cantidad: 1
+            precio_unitario: 2800
+  - compra:
+      - producto:
+          - nombre: Fresas
+            cantidad: 1
+            precio_unitario: 2500
+      - producto:
+          - nombre: Crema dulce
+            cantidad: 1
+            precio_unitario: 1500
+  - compra:
+      - producto:
+          - nombre: Comida para perro
+            cantidad: 1
+            precio_unitario: 15000
