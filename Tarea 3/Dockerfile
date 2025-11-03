@@ -1,28 +1,40 @@
-FROM openjdk:14-alpine
+FROM openjdk:17-alpine
 
-ENV SPARK_HOME=/usr/lib/python3.9/site-packages/pyspark
+# 1. Instalar dependencias de compilación y del sistema.
+RUN apk add --no-cache --virtual .build-deps \
+        build-base \
+        python3-dev \
+        libffi-dev \
+        openblas-dev \
+        zlib-dev \
+        jpeg-dev \
+        zeromq-dev \
+    && apk add --no-cache \
+        bash \
+        nano \
+        postgresql-client \
+        python3 \
+        py3-pip
 
-RUN apk add bash
-RUN apk add build-base
-RUN apk add nano
-RUN apk add postgresql-client
-RUN apk add python3
-RUN apk add python3-dev
-RUN apk add libffi-dev
-RUN apk add openblas-dev
-RUN apk add zlib-dev
-RUN apk add jpeg-dev
-RUN apk add zeromq-dev
-RUN pip3 install --upgrade pip setuptools wheel
-RUN pip3 install numpy
-RUN pip3 install matplotlib
-RUN pip3 install seaborn
-RUN pip3 install pyspark
-RUN pip3 install pytest
-RUN pip3 install notebook
-RUN pip3 install findspark
-RUN ln /usr/bin/python3.7 /usr/bin/python
+# 2. Actualizar pip e instalar las dependencias de Python.
+#    Se usa --ignore-installed para evitar conflictos con los paquetes de Alpine.
+RUN pip3 install --no-cache-dir --upgrade pip setuptools wheel \
+    && pip3 install --no-cache-dir --ignore-installed \
+        numpy \
+        matplotlib \
+        seaborn \
+        pyspark \
+        pytest \
+        notebook \
+        findspark
+
+# 3. Limpiar dependencias de compilación y crear enlace simbólico.
+RUN apk del .build-deps \
+    && ln -s /usr/bin/python3 /usr/bin/python
 
 WORKDIR /src
 
+# 4. Copiar el resto del código fuente.
+#    Esto aprovecha el caché de Docker. Si solo cambias tu código Python,
+#    las capas anteriores no se reconstruirán.
 COPY . /src
